@@ -1,0 +1,61 @@
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu>li>a>h4>small {
+    color: #2eb0c7;
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    left: 102%;
+    direction: unset;
+}
+.navbar-nav>.notifications-menu>.dropdown-menu, .navbar-nav>.messages-menu>.dropdown-menu, .navbar-nav>.tasks-menu>.dropdown-menu {
+    width: 337px;
+    padding: 0 0 0 0;
+    margin: 0;
+    top: 100%;
+}
+.navbar-nav>.notifications-menu>.dropdown-menu>li.header, .navbar-nav>.messages-menu>.dropdown-menu>li.header, .navbar-nav>.tasks-menu>.dropdown-menu>li.header {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #ffffff;
+    padding: 7px 10px;
+    border-bottom: 1px solid #f4f4f4;
+    color: #4b91fc;
+    font-size: 17px;
+    font-weight: 700;
+}
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu>li>a>div>img {
+    margin: auto auto auto 10px;
+    width: 55px;
+    height: 55px;
+}
+i.fa.fa-gears {
+    display: none;
+}
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu>li>a>h4 {
+    padding: 0;
+    margin: 11px 53px 3px 71px;
+    color: #444444;
+    font-size: 15px;
+    position: relative;
+}
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu>li>a>p {
+    margin: 0 0px 10px 70px;
+    font-size: 12px;
+    color: #888888;
+}
+.itemnav {
+    padding-left: 0px;
+}
+i.fa.fa-bell-o {
+    padding-left: 7px;
+}
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu>li>a>h4>small {
+    color: #2eb0c7;
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    left: 83%;
+    font-size: 8px;
+    direction: unset;
+}

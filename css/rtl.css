@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+h1,h2,h3,h4,h5,h6,a,p,span,input{font-family: 'Cairo', sans-serif
+!important;}
+*{letter-spacing:0!important;}
+body{direction:rtl;text-align:right;font-family: 'Cairo', sans-serif;}
+.about-me .about-info h3:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+	left:auto;
+    right: 0;}
+	.about-me .about-info .personal-info .social-media{left:-23px;right:auto;}
+	.resume .resume-item .resume-date{margin-right:-70px;margin-left:auto;}
+	.about-me .about-info .personal-info p span{right:-4px;left:auto;}
+	.about-me .about-info .personal-info p{padding-right:40px;padding-left:auto;}
+	.skills .progress-container .progress h4 {
+    position: absolute;
+    top: 0;left:auto;
+    right: 48px;}
+	.progress-bar {
+    float: right;}
+	.portfolio,.testimonials {
+    direction: ltr;}
+	.portfolio .filter-menu{direction:rtl;}
+	.home .arrow{left:10px;right:auto;}
+	.container>.navbar-header{float:right;}
+	.navbar-right {margin-top:21px;
+    float: left!important;}
+	.navbar-nav>li {
+    float: right;
+}
+.about-me .about-info .personal-info{margin-left:20px;margin-right:auto;}
+.navbar .menu-toggle{position:absolute;top:30px;
+left:23px;}
+@media (max-width: 575.98px){
+.home .arrow {
+    display:none;
+}
+.navbar-nav>li {
+    float: none;
+}
+}
+
+@media (max-width: 767.98px){
+.home .arrow {
+    display:none;
+}
+.navbar-nav>li {
+    float: none;
+}
+}
